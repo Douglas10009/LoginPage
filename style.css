@@ -1,0 +1,69 @@
+body {
+    background-image: url("/wall-green.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    overflow: hidden;
+    margin: 0;
+    flex-wrap: wrap;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.conteiner {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centered {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(36, 84, 73, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+
+    width: 424px;
+    height: 231px;
+
+    text-align: center;
+}
+
+h1 {
+    color: #E6D894;
+
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+
+.credenciais {
+    margin: 10px 30px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#email,
+#senha {
+    margin: 5px;
+    padding: 5px;
+
+}
+
+#email::placeholder,
+#senha::placeholder {
+    font-size: 15px;
+    font: bold;
+    color: #899898;
+}
+
+button {
+    color: #35A188;
+    font: 20px italic;
+    padding: 5px 20px;
+    border-radius: 50px;
+}
